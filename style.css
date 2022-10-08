@@ -36,7 +36,7 @@ body {
 }
 
 .header-content {
-    color: #F1F1F1;
+    color: #f08527;
     width: 100%;
     max-width: 1000px;
     display: flex;
@@ -286,7 +286,7 @@ a:hover, a:active {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 24px;
     font-weight: 700;
-    color: #F1F1F1;
+    color: #f08527;
     line-height: 1;
     margin: 0;
     text-transform: uppercase;
@@ -296,7 +296,13 @@ a:hover, a:active {
 .hero-content h1 {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 48px;
-    color: #F1F1F1;
+    color:#F1F1F1;
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+    font-weight: bold;
     line-height: 1;
     margin: 0 0 24px 0;
     text-transform: uppercase;
@@ -305,7 +311,14 @@ a:hover, a:active {
 .hero-content p {
     font-family: 'Cabin', sans-serif;
     font-size: 18px;
-    color: #F1F1F1;
+    color:#F1F1F1;
+    font-size: 20px;
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+    font-weight: bold;
     line-height: 1.5;
 }
 
@@ -342,7 +355,7 @@ section p {
 .mobile-nav span a {
     font-size: 48px;
     padding: 8px;
-    color: #F1F1F1;
+    color: #f08527;
 }
 
 .mobile-nav span a:hover {
@@ -414,7 +427,7 @@ footer {
     }
     
     ul#navigation li a {
-        color: #F1F1F1;
+        color: #f08527;
         font-family: 'Cabin', sans-serif;
         padding: 6px 12px;
         border: solid 2px transparent;
